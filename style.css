@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+
+}
+.container{
+    width: 856px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    background-color: #F2EAEA;
+    color: #0D0D0C;
+    padding: 16px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.logo{
+    width: 214px;
+    font-family: "Island Moments", cursive;
+    font-weight: 800;
+    font-size: 32px;
+}
+.logo-name{
+    font-family: "Island Moments", cursive;
+    font-weight: 800;
+    font-size: 64px;
+    
+}
+.header{
+    text-align: center;
+    padding: 16px;
+}
+.card {
+    background-color: #F2EAEA;
+    border-radius: 10px;
+    padding: 24px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+#form input{
+    height: 48px;
+    padding: 0 10px;
+    border-color: #B1B1B1;
+    border-radius: 12px;
+
+}
+.btn{
+    width: 96px;
+    height: 40px;
+    background-color: #5C9967;
+    border: none;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-top: 16px;
+    color: #F2EAEA;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+
+}
+.list div{
+   display: flex;
+   justify-content: space-between; 
+   padding: 16px 24px;
+   background-color: #F0D1A8;
+   border-radius: 8px;
+}
+.list-detail{
+    display: flex;
+    /* gap: 24px; */
+    flex-direction: column;
+    /* align-items: center; */
+
+}
+.strike-through {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.fa-solid{
+    color: #4B332F;
+}
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type=checkbox] {
+	width: 20px;
+    height: 20px;
+    border: 5px solid #4B332F;
+}
+.fa-trash{
+    color: red;
+}
+.tasks-info{
+    display: flex;
+    margin-top: 24px;
+    padding: 8px;
+    /* margin: auto 24px; */
+    justify-content: center;
+    gap: 48px;
+
+}
+
+.tasks-info div{
+    width: 152px;
+    padding: 8px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    border-radius: 8px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      background-color: #F0D1A8;
+
+}
+
+
+.footer{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    background-color: #F2EAEA;
+    height: 40px;
+    font-size: 32px;
+    width: 100%;
+}

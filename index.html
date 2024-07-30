@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Island+Moments&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="logo">Logo</div>
+        <h1 class="logo-name">Todo List</h1>
+      </div>
+      <div class="container-body">
+        <h1 class="header">Welcome, Start your day by planning Activities</h1>
+        <div class="card">
+          <form action="" id="form">
+            <label for="">Activity</label>
+            <input type="text" placeholder="Enter title" required id="title" />
+            <label for="">Details</label>
+            <input type="text" placeholder="Enter details" id="detail" />
+            <label for="">Start Date</label>
+            <input type="date" id="dateStart" />
+            <button type="submit" class="btn">Add Task</button>
+          </form>
+          <div class="list" id="list">
+            <div>
+              <div class="list-detail">
+                <h4>Activity 1</h4>
+                <p>Details OF activity</p>
+                <p>Start date: 29-07-2024</p>
+              </div>
+              <div class="action">
+                <input type="checkbox" />
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tasks-info">
+          <div class="completed">
+            <h3>Completed Task</h3>
+            <h1 id="completed-count">0</h1>
+          </div>
+          <div class="pending">
+            <h3>Pending Task</h3>
+            <h1 id="pending-count">1</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="copy-right">&copy Amanuel Mandefrow 2024</div>
+        <div class="social-media">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-telegram"></i>
+          <i class="fa-brands fa-square-x-twitter"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </div>
+    <script src="./dist/index.js"></script>
+  </body>
+</html>

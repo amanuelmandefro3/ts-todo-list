@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Todo List</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,28 +30,16 @@
         <h1 class="header">Welcome, Start your day by planning Activities</h1>
         <div class="card">
           <form action="" id="form">
-            <label for="">Activity</label>
+            <label for="title">Activity</label>
             <input type="text" placeholder="Enter title" required id="title" />
-            <label for="">Details</label>
+            <label for="detail">Details</label>
             <input type="text" placeholder="Enter details" id="detail" />
-            <label for="">Start Date</label>
+            <label for="dateStart">Start Date</label>
             <input type="date" id="dateStart" />
             <button type="submit" class="btn">Add Task</button>
           </form>
-          <div class="list" id="list">
-            <div>
-              <div class="list-detail">
-                <h4>Activity 1</h4>
-                <p>Details OF activity</p>
-                <p>Start date: 29-07-2024</p>
-              </div>
-              <div class="action">
-                <input type="checkbox" />
-                <i class="fa-solid fa-pen-to-square"></i>
-                <i class="fa-solid fa-trash"></i>
-              </div>
-            </div>
-          </div>
+          <div class="list" id="list"></div>
+          <div id="pagination" class="pagination"></div>
         </div>
         <div class="tasks-info">
           <div class="completed">
@@ -64,7 +52,6 @@
           </div>
         </div>
       </div>
-
       <div class="footer">
         <div class="copy-right">&copy Amanuel Mandefrow 2024</div>
         <div class="social-media">

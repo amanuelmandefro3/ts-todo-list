@@ -77,6 +77,16 @@ Below is a screenshot showing the state of the application after a task has been
 
 - **Task List**: Displays the remaining task(s) after a task has been deleted.
 
+### Multiple Tasks and Pagination
+
+Below is a screenshot showing multiple tasks with pagination:
+
+![Multiple Tasks](./screenshots/Screenshot%20-7.png)
+
+- **Task List**: Displays multiple tasks added by the user, with completed tasks shown with a strike-through.
+- **Pagination**: Allows the user to navigate between different pages of tasks.
+- **Task Info**: Shows the count of completed and pending tasks.
+
 
 ## Installation
 
